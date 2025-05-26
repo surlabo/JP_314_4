@@ -15,11 +15,6 @@ public class OptionsUIController : MonoBehaviour
 
     void Start()
     {
-        var mc = new MyClass();
-        mc.name = "Giorgi";
-        Debug.Log(mc.name);
-
-
         myToggle.onValueChanged.AddListener(OnMyToggleClick);
         mySlider.onValueChanged.AddListener(OnSlide);
 
